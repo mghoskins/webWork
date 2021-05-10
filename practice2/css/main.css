@@ -69,6 +69,16 @@ html {
     text-decoration: none;
 }
 
+/* To add separation between nav bar links */
+.navbar b {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 1px;
+    background: black;
+}
+
 /* The current page styling to show difference */
 .navbar a.active {
     background-color: #4CAF50;
