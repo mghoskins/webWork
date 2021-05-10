@@ -9,23 +9,24 @@ html {
 .header {
     padding: 20px;
     text-align: center;
-    background: crimson;
+    background: #3C0523;
     color: aliceblue;
+    font-size: large;
 }
 
 /* Primary header for the WIP Page */
 .headerWIP {
-    padding: 50px;
+    padding: 20px;
     text-align: center;
-    background: black;
+    background: #05233C;
     color: mediumseagreen;
-    font-size: xx-large;
+    font-size: large;
 }
 
 .WIPText {
     padding: 20px;
     text-align: center;
-    background: black;
+    background: darkslategray;
     color: mediumseagreen;
 }
 
@@ -46,16 +47,24 @@ html {
     width: 50%;
 }
 
+/* Basic navigation bar setup */
 .navbar {
     overflow: hidden;
-    background-color: black;
+    background-color: dimgray;
 }
 
+/* Options stylization */
 .navbar a {
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 25px;
     text-decoration: none;
+}
+
+/* The current page styling to show difference */
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
 }
