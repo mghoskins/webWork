@@ -13,6 +13,7 @@ html {
     color: aliceblue;
 }
 
+/* Primary header for the WIP Page */
 .headerWIP {
     padding: 20px;
     text-align: center;
@@ -25,4 +26,12 @@ html {
     text-align: center;
     background: white;
     color: black;
+}
+
+/* Center alignment of pictures */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
