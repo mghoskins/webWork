@@ -85,6 +85,11 @@ html {
     color: white;
 }
 
+/* On hover, add a black background color with a little bit see-through */
+.navbar a:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
