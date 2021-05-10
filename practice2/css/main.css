@@ -5,9 +5,24 @@ html {
     line-height: normal;
 }
 
+/* Primary header for Home Page */
 .header {
     padding: 20px;
     text-align: center;
     background: crimson;
     color: aliceblue;
+}
+
+.headerWIP {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+/* Header for Work In Progress Page - h2 */
+.header h2 {
+    text-align: center;
+    background: white;
+    color: black;
 }
