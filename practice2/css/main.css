@@ -17,8 +17,8 @@ html {
 .headerWIP {
     padding: 20px;
     text-align: center;
-    background: white;
-    color: black;
+    background: black;
+    color: mediumseagreen;
 }
 
 /* Header for Work In Progress Page - h2 */
