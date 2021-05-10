@@ -1,0 +1,13 @@
+
+html {
+    color: aquamarine;
+    font-size: large;
+    line-height: normal;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: crimson;
+    color: aliceblue;
+}
