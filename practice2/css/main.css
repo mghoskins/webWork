@@ -1,6 +1,6 @@
 
 html {
-    color: aquamarine;
+    color: white;
     font-size: large;
     line-height: normal;
 }
@@ -23,11 +23,17 @@ html {
     font-size: large;
 }
 
+/* Text for the work in progress page*/
 .WIPText {
     padding: 20px;
     text-align: center;
     background: darkslategray;
     color: mediumseagreen;
+}
+
+/* All this does is allow text be aligned in the center */
+.centerText {
+    text-align: center;
 }
 
 /* Center alignment of pictures */
