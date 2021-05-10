@@ -15,17 +15,18 @@ html {
 
 /* Primary header for the WIP Page */
 .headerWIP {
+    padding: 50px;
+    text-align: center;
+    background: black;
+    color: mediumseagreen;
+    font-size: xx-large;
+}
+
+.WIPText {
     padding: 20px;
     text-align: center;
     background: black;
     color: mediumseagreen;
-}
-
-/* Header for Work In Progress Page - h2 */
-.header h2 {
-    text-align: center;
-    background: white;
-    color: black;
 }
 
 /* Center alignment of pictures */
