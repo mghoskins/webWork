@@ -53,6 +53,17 @@ html {
     width: 50%;
 }
 
+/* Bottom aligned general information space CSS */
+div.bottomFixed {
+    position: fixed;
+    bottom: 10px;
+    background: #bbbbbb;
+}
+
+/* ==========================================================================
+   Navigation Bar (navbar) CSS-ing below
+   ========================================================================== */
+
 /* Basic navigation bar setup */
 .navbar {
     overflow: hidden;
@@ -89,6 +100,10 @@ html {
 .navbar a:hover {
     background-color: rgba(0,0,0,0.8);
 }
+
+/* ==========================================================================
+   Slideshow CSS-ing below
+   ========================================================================== */
 
 * {box-sizing:border-box}
 
