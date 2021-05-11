@@ -3,6 +3,7 @@ html {
     color: white;
     font-size: large;
     line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Primary header for Home Page */
@@ -58,6 +59,7 @@ div.bottomFixed {
     position: fixed;
     bottom: 10px;
     background: #bbbbbb;
+    width: 100%;
 }
 
 /* ==========================================================================
@@ -68,6 +70,7 @@ div.bottomFixed {
 .navbar {
     overflow: hidden;
     background-color: dimgray;
+    font-size: medium;
 }
 
 /* Options stylization */
@@ -76,7 +79,7 @@ div.bottomFixed {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 25px;
+    padding: 14px 20px;
     text-decoration: none;
 }
 
@@ -86,7 +89,7 @@ div.bottomFixed {
     display: block;
     color: black;
     text-align: center;
-    padding: 25px 1px;
+    padding: 23px 1px;
     background: black;
 }
 
@@ -98,7 +101,8 @@ div.bottomFixed {
 
 /* On hover, add a black background color with a little bit see-through */
 .navbar a:hover {
-    background-color: rgba(0,0,0,0.8);
+    /*background-color: rgba(0,0,0,0.8);*/
+    background-color: #A9B3E7;
 }
 
 /* ==========================================================================
