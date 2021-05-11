@@ -60,11 +60,40 @@ div.bottomInfo {
     background: #bbbbbb;
     width: 100%;
     font-size: 15px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 /* div purely for divisional spacing between elements */
 div.spacing {
     padding: 20px;
+}
+
+/* A row setup for the left side of screen */
+div.leftSide {
+    -ms-flex: 30%;
+    flex: 30%;
+    padding: 20px;
+}
+
+div.centerSide {
+    -ms-flex: 40%;
+    flex: 40%;
+    padding: 20px;
+}
+
+div.rightSide {
+    -ms-flex: 30%;
+    flex: 30%;
+    padding: 20px;
+}
+
+/* Specialized header for the info portion of page */
+div.infoHeader {
+    text-align: center;
+    font-size: 16px;
 }
 
 /* ==========================================================================
