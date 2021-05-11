@@ -55,11 +55,15 @@ html {
 }
 
 /* Bottom aligned general information space CSS */
-div.bottomFixed {
-    position: fixed;
+div.bottomInfo {
     bottom: 10px;
     background: #bbbbbb;
     width: 100%;
+}
+
+/* div purely for divisional spacing between elements */
+div.spacing {
+    padding: 20px;
 }
 
 /* ==========================================================================
