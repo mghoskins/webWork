@@ -156,6 +156,7 @@ Navigation Bar drop down function CSS-ing below
 /* Dropdown container div */
 .dropdown {
     display: inline-block;
+    float: left;
 }
 
 /* Dropdown Content */
@@ -172,10 +173,12 @@ Navigation Bar drop down function CSS-ing below
 /* Links inside the drop down */
 .dropdownContent a {
     color: black;
-    padding: 12px 25px;
+    padding: 12px 10px;
     text-decoration: none;
     display: block;
     background-color: #ddd;
+    float: none;
+    text-align: left;
 }
 
 /* Change color of dropdown links on hover */
