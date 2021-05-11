@@ -141,6 +141,57 @@ div.infoHeader {
 }
 
 /* ==========================================================================
+Navigation Bar drop down function CSS-ing below
+========================================================================== */
+
+/* Dropdown Button */
+.dropdownButton {
+    background-color: dimgray;
+    padding: 14px;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+/* Dropdown container div */
+.dropdown {
+    display: inline-block;
+}
+
+/* Dropdown Content */
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the drop down */
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.drop a:hover {
+    background-color: #A9B3E7;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropdownButton {
+    background-color: #A9B3E7;
+}
+
+/* ==========================================================================
    Slideshow CSS-ing below
    ========================================================================== */
 
