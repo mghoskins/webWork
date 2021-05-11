@@ -59,6 +59,7 @@ div.bottomInfo {
     bottom: 10px;
     background: #bbbbbb;
     width: 100%;
+    font-size: 15px;
 }
 
 /* div purely for divisional spacing between elements */
