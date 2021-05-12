@@ -97,6 +97,12 @@ div.infoHeader {
     color: black;
 }
 
+div.infoText {
+    color: black;
+    line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* ==========================================================================
    Navigation Bar (navbar) CSS-ing below
    ========================================================================== */
