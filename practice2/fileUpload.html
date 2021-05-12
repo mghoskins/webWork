@@ -39,11 +39,18 @@
     </div>
 
     <!-- "Preview" image for that file -->
-    <img src="img/Windmill.jpg" alt="windmill_Center" class="padding">
+    <img src="img/Windmill.jpg" id="output" alt="windmill_Center" class="padding">
     <div class="centerText">
         <p>File 1: Spring Break 2019</p>
-        <input type="file" id="myFile" multiple size="50" onchange="myFunction()">
+        <input type="file" accept="image/*" id="myFile" multiple size="50" onchange="loadFile(event)">
     </div>
+
+    <script>
+        const loadFile = function (event) {
+            const image = document.getElementById('output');
+            image.src = URL.createObjectURL(event.target.files[0]);
+        };
+    </script>
 
 </body>
 </html>
