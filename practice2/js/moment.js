@@ -16,9 +16,9 @@ export const MyCalendar = props => (
     </div>
 )
 
-const Footer = () => {
+const FooterTest = () => {
     return(
         <h2>THIS IS A FOOTER</h2>
     )
 }
-export default Footer
+export default FooterTest
