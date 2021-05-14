@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "dependencies": {
     "react-big-calendar": "^0.33.2"
+  },
+  "devDependencies": {
+    "react": "^17.0.2"
   }
 }
