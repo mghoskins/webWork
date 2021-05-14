@@ -5,6 +5,7 @@
     <title>PracticeCalendar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/react-big-calendar/lib/css/react-big-calendar.css">
 </head>
 <body style="background-color: darkslategray">
 
@@ -43,7 +44,24 @@
   <!-- End: Title and quick info for page -->
 
   <!-- Begin: Calendar html stuff -->
+  <script>
+    import { Calendar, momentLocalizer } from 'react-big-calendar'
+    import moment from 'moment'
 
+    const localizer = momentLocalizer(moment)
+
+    const MyCalendar = props => (
+            <div style="height: 500px;">
+              <Calendar
+                      localizer={localizer}
+                      events={myEventsList}
+                      startAccessor="start"
+                      endAccessor="end"
+                      style={{ height: 500 }}
+              />
+            </div>
+    )
+  </script>
 
 </body>
 </html>
