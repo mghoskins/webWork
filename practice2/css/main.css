@@ -257,6 +257,7 @@ Navigation Bar drop down function CSS-ing below
 /* Caption text */
 .text {
     color: #f2f2f2;
+    /*color: darkblue;*/
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -268,11 +269,17 @@ Navigation Bar drop down function CSS-ing below
 /* Number text (1/3 etc) */
 .numberText {
     color: #f2f2f2;
+    /*color: darkblue;*/
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
 }
+
+.numberText:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
 
 /* The dots/bullets/indicators */
 .dot {
