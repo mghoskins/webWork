@@ -47,8 +47,16 @@
         <p>The page may be completed anytime between now and the death of the universe.</p>
     </div>
 
-    <script> src="js/bottomInfo.js"</script>
-    <div id="main"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var div = document.createElement('div');
+            div.id = 'container';
+            div.innerHTML = 'Hi there!';
+            div.className = 'border pad';
+
+            document.body.appendChild(div);
+        }, false);
+    </script>
 
 </body>
 </html>

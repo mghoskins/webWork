@@ -1,8 +1,8 @@
-const div = document.createElement("div");
-div.style.width = "100px";
-div.style.height = "100px";
-div.style.background = "red";
-div.style.color = "white";
-div.innerHTML = "Hello";
+document.addEventListener('DOMContentLoaded', function() {
+    var div = document.createElement('div');
+    div.id = 'container';
+    div.innerHTML = 'Hi there!';
+    div.className = 'border pad';
 
-document.getElementById("main").appendChild(div);
+    document.body.appendChild(div);
+}, true);
