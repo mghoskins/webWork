@@ -5,4 +5,4 @@ div.style.background = "red";
 div.style.color = "white";
 div.innerHTML = "Hello";
 
-document.body.appendChild(div);
+document.getElementById("main").appendChild(div);
