@@ -104,6 +104,7 @@ div.infoText {
 }
 
 div.infoTextCenter {
+    margin: 0 auto;
     text-align: center;
     color: black;
     line-height: normal;
