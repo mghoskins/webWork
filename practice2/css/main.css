@@ -103,6 +103,13 @@ div.infoText {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+div.infoTextCenter {
+    text-align: center;
+    color: black;
+    line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .infoTextHeader {
     font-weight: bold;
     color: black;
