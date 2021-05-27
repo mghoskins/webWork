@@ -118,6 +118,14 @@ div.infoTextCenter {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.infoImage {
+    border-radius: 8px;
+}
+
+.infoImage:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
 /* ==========================================================================
    Navigation Bar (navbar) CSS-ing below
    ========================================================================== */
