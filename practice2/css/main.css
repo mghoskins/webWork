@@ -73,20 +73,20 @@ div.spacing {
 
 /* A row setup for the left side of screen */
 div.leftSide {
-    -ms-flex: 30%;
-    flex: 30%;
+    -ms-flex: 35%;
+    flex: 35%;
     padding: 20px;
 }
 
 div.centerSide {
-    -ms-flex: 40%;
-    flex: 40%;
+    -ms-flex: 30%;
+    flex: 30%;
     padding: 20px;
 }
 
 div.rightSide {
-    -ms-flex: 30%;
-    flex: 30%;
+    -ms-flex: 35%;
+    flex: 35%;
     padding: 20px;
 }
 
