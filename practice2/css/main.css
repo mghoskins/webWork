@@ -45,6 +45,14 @@ html {
     width: 50%;
 }
 
+/* Center alignment of videos */
+.centerVid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+}
+
 /* Center alignment for pictures with a pad of 20 px */
 .padding {
     padding: 20px;
