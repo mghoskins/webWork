@@ -134,6 +134,14 @@ div.infoTextCenter {
     background-color: rgba(0,0,0,0.8);
 }
 
+.infoImageDownload {
+    border-radius: 4px;
+}
+
+.infoImageDownload:hover {
+    background-color: rgba(255,255,255,0.8);
+}
+
 /* ==========================================================================
    Navigation Bar (navbar) CSS-ing below
    ========================================================================== */
