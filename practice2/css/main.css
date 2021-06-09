@@ -152,6 +152,12 @@ div.infoTextCenter {
     flex-wrap: wrap;
 }
 
+.recipeImage {
+    border-color: #dddddd;
+    width: 15%;
+    height: 15%;
+}
+
 /* ==========================================================================
    Navigation Bar (navbar) CSS-ing below
    ========================================================================== */
