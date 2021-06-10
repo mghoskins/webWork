@@ -158,6 +158,11 @@ div.infoTextCenter {
     height: 15%;
 }
 
+.recipePrevText {
+    color: #dddddd;
+    font-size: 15px;
+}
+
 /* ==========================================================================
    Navigation Bar (navbar) CSS-ing below
    ========================================================================== */
