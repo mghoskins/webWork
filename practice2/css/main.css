@@ -161,6 +161,12 @@ div.infoTextCenter {
 .recipePrevText {
     color: #dddddd;
     font-size: 15px;
+    padding-left: 20px;
+}
+
+.recipePrev {
+    display: flex;
+    align-items: center;
 }
 
 /* ==========================================================================
